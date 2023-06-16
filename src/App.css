@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding-left: 380px;
+  flex-direction: column;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+} */
+
+/* .progress-bar__container {
+  width: 80%;
+  height: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  will-change: transform;
+  box-shadow: 0 0 5px #e76f51;
+}
+
+.progress-bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "0";
+  background-color: #e76f51;
+
+  left: -100%;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+} */
+.progress-bar {
+  width: 80%;
+  height: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px #e76f51;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #e76f51;
+  transition: width 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic {
+  color: #000000;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 35px;
+  font-family: Inter;
+
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 333px;
+}
+.question {
+  color: #000000;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 24px;
+  font-family: Inter;
+  letter-spacing: undefinedpx;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 544px;
+}
+.option {
+  background-color: #d9d9d9;
+  height: 58px;
+  width: 567px;
+  border-radius: 20px;
+
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.button-clicked {
+  background-color: red;
+}
+
+.option:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.option--text {
+  color: red;
+  margin: 16px;
+  padding: 16px 32px;
+}
